@@ -17,3 +17,10 @@
 
 30. select * from productlines
     order by productline;
+
+31. select * from orders
+    order by orderdate asc
+    limit 10;
+
+32. select * from products
+    order by productline, buyprice;
