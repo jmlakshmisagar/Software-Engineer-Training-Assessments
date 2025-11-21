@@ -16,6 +16,11 @@ public class App {
 
 		System.out.println(student == student2);
 		System.out.println(student.equals(student2));
-
+		
+		
+		
+		
+		
 	}
 }
+ 
