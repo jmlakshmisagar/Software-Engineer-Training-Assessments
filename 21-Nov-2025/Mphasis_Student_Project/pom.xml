@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>mphasis.student.project</groupId>
-  <artifactId>Mphasis_Student_Project</artifactId>
+  <artifactId>Mphasis.Student.Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>Mphasis_Student_Project</name>
@@ -40,6 +40,12 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.42</version>
+</dependency>
   </dependencies>
 
   <build>
