@@ -1,3 +1,6 @@
+
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/703ca840-98ce-4739-9689-8709fb66df82" alt="MPHASIS NS_BIG" width="400"/>
+<img width="1550" height="512" alt="MPHASIS NS_BIG D" src="https://github.com/user-attachments/assets/73617f39-eacd-4713-ad17-b885c59bb5fd" />
 </p>
+
