@@ -1,4 +1,4 @@
-package com.mphasis.com.mphasis.bank;
+package mphasis.banking.project;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

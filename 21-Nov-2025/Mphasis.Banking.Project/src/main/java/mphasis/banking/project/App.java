@@ -1,4 +1,4 @@
-package com.mphasis.com.mphasis.bank;
+package mphasis.banking.project;
 
 /**
  * Hello world!
