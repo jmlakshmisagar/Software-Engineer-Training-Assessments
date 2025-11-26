@@ -2,14 +2,14 @@ package Database_Connection_JDBC;
 
 public class App {
 	public static void main(String[] args) {
-//		DBConnection connection = DBConnection.getInstance();
-//		System.out.println(connection.hashCode());
+		DBConnection connection = DBConnection.getInstance();
+		System.out.println(connection.hashCode());
 //
-//		DBConnection connection1 = DBConnection.getInstance();
-//		System.out.println(connection1.hashCode());
-//
-//		DBConnection connection2 = DBConnection.getInstance();
-//		System.out.println(connection2.hashCode());
+		DBConnection connection1 = DBConnection.getInstance();
+		System.out.println(connection1.hashCode());
+
+		DBConnection connection2 = DBConnection.getInstance();
+		System.out.println(connection2.hashCode());
 
 //		Shape shapeFactory = ShapeFactory.getShape("circle");
 //		shapeFactory.draw();
