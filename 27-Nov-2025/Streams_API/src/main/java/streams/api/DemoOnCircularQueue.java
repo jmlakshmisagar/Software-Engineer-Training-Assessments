@@ -1,19 +1,19 @@
+
 package streams.api;
 
 import java.util.Scanner;
 
-public class QueueArray {
+public class DemoOnCircularQueue {
 	private static int front = -1;
 	private static int rear = -1;
-	private static final int SIZE = 10;
-	private static int[] queue = new int[SIZE];
+	private static int[] cq = new int[5];
 
 	public static boolean isEmpty() {
 		return front == -1;
 	}
 
 	public static boolean isFull() {
-		return rear == SIZE - 1;
+		return (rear + 1) % cq.length == front;
 	}
 
 	public static void push(Scanner scanner) {
@@ -26,7 +26,8 @@ public class QueueArray {
 		if (isEmpty()) {
 			front = 0;
 		}
-		queue[++rear] = value;
+		rear = (rear + 1) % cq.length;
+		cq[rear] = value;
 		System.out.println("Enqueued: " + value);
 	}
 
@@ -35,11 +36,11 @@ public class QueueArray {
 			System.out.println("Queue Underflow!");
 			return;
 		}
-		System.out.println("Dequeued: " + queue[front]);
+		System.out.println("Dequeued: " + cq[front]);
 		if (front == rear) {
-			front = rear = -1;
+			front = rear = -1; 
 		} else {
-			front++;
+			front = (front + 1) % cq.length; 
 		}
 	}
 
@@ -49,8 +50,12 @@ public class QueueArray {
 			return;
 		}
 		System.out.print("Queue elements: ");
-		for (int i = front; i <= rear; i++) {
-			System.out.print(queue[i] + " ");
+		int i = front;
+		while (true) {
+			System.out.print(cq[i] + " ");
+			if (i == rear)
+				break;
+			i = (i + 1) % cq.length;
 		}
 		System.out.println();
 	}
