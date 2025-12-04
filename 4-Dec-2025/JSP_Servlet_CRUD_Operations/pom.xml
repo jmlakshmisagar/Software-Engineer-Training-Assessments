@@ -5,19 +5,19 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.example</groupId>
-	<artifactId>WebAppDemo</artifactId>
+	<groupId>JSP_Servlet_CRUD_Operations</groupId>
+	<artifactId>JSP_Servlet_CRUD_Operations</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>WebAppDemo Maven Webapp</name>
+	<name>JSP_Servlet_CRUD_Operations Maven Webapp</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -51,11 +51,10 @@
 			<version>8.3.0</version>
 		</dependency>
 
-
 	</dependencies>
 
 	<build>
-		<finalName>WebAppDemo</finalName>
+		<finalName>JSP_Servlet_CRUD_Operations</finalName>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven
 			defaults (may be moved to parent pom) -->
 			<plugins>

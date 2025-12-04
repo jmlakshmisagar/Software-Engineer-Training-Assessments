@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+	<display-name>DB Connection Test</display-name>
+
+	<context-param>
+		<param-name>driver</param-name>
+		<param-value>com.mysql.cj.jdbc.Driver</param-value>
+	</context-param>
+	<context-param>
+		<param-name>url</param-name>
+		<param-value>jdbc:mysql://localhost:3306/power_consumption_tracker</param-value>
+	</context-param>
+	<context-param>
+		<param-name>username</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	<context-param>
+		<param-name>pwd</param-name>
+		<param-value>root@39</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>DBTestServlet</servlet-name>
+		<servlet-class>crud.operation.DBTestServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DBTestServlet</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+
+</web-app>
