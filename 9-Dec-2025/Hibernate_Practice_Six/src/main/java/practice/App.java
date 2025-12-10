@@ -22,13 +22,15 @@ public class App {
 		department.addEmployee(employee1);
 		department.addEmployee(employee2);
 		department.addEmployee(employee3);
-//
+
 		departmentDAO.addEmployee(department);
+
 		LOGGER.info("Employee Added..");
 		departmentDAO.findAll().forEach(System.out::println);
-		departmentDAO.delete(1);
-		departmentDAO.findAll().forEach(System.out::println);
-		departmentDAO.addEmployee(department);
+
+		Department department2 = departmentDAO.findById(1);
+		Department department3 = departmentDAO.findById(1);
+		System.out.println(department2 == department3 ? "true" : "false");
 
 	}
 }

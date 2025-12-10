@@ -1,8 +1,8 @@
-2025-12-09 14:16:35 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
-2025-12-09 14:16:35 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-12-09 14:16:36 WARN  [main] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-12-09 14:16:36 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-09 14:16:36 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-12-10 09:12:57 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
+2025-12-10 09:12:57 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-10 09:12:57 WARN  [main] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-10 09:12:58 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-10 09:12:58 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/ordersManager]
 	Database driver: com.mysql.cj.jdbc.Driver
 	Database version: 8.0.42
@@ -10,12 +10,13 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: 1
 	Maximum pool size: 20
-2025-12-09 14:16:37 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-09 14:17:12 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
-2025-12-09 14:17:12 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-12-09 14:17:12 WARN  [main] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-12-09 14:17:12 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-09 14:17:12 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-12-10 09:12:59 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-10 09:12:59 INFO  [main] org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b0f266e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-12-10 09:13:01 INFO  [main] org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55361f03] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-12-10 09:13:03 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-10 09:13:03 WARN  [main] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-12-10 09:13:03 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-10 09:13:03 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/ordersManager]
 	Database driver: com.mysql.cj.jdbc.Driver
 	Database version: 8.0.42
@@ -23,88 +24,6 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: 1
 	Maximum pool size: 20
-2025-12-09 14:17:13 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-09 14:21:09 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
-2025-12-09 14:21:09 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-12-09 14:21:10 WARN  [main] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-12-09 14:21:10 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-09 14:21:10 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/ordersManager]
-	Database driver: com.mysql.cj.jdbc.Driver
-	Database version: 8.0.42
-	Autocommit mode: false
-	Isolation level: undefined/unknown
-	Minimum pool size: 1
-	Maximum pool size: 20
-2025-12-09 14:21:19 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
-2025-12-09 14:21:19 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-12-09 14:21:20 WARN  [main] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-12-09 14:21:20 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-09 14:21:20 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/ordersManager]
-	Database driver: com.mysql.cj.jdbc.Driver
-	Database version: 8.0.42
-	Autocommit mode: false
-	Isolation level: undefined/unknown
-	Minimum pool size: 1
-	Maximum pool size: 20
-2025-12-09 14:22:50 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.38.Final
-2025-12-09 14:22:50 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-12-09 14:22:50 WARN  [main] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-12-09 14:22:51 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-09 14:22:51 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/ordersManager]
-	Database driver: com.mysql.cj.jdbc.Driver
-	Database version: 8.0.42
-	Autocommit mode: false
-	Isolation level: undefined/unknown
-	Minimum pool size: 1
-	Maximum pool size: 20
-2025-12-09 14:22:52 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-09 14:22:52 INFO  [main] org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@34279b8a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2025-12-09 14:22:52 WARN  [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "alter table Passport drop foreign key FKnmcyg7gj4y44yw8tor50osrgq" via JDBC [Table 'ordersmanager.passport' doesn't exist]
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table Passport drop foreign key FKnmcyg7gj4y44yw8tor50osrgq" via JDBC [Table 'ordersmanager.passport' doesn't exist]
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
-	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
-	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:479)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:245)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:218)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:186)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:156)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:116)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
-	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:980)
-	at practice.utils.HibernateUtil.buildSessionFactory(HibernateUtil.java:39)
-	at practice.utils.HibernateUtil.<clinit>(HibernateUtil.java:13)
-	at practice.dao.PassportDAO.findAll(PassportDAO.java:15)
-	at practice.App.main(App.java:11)
-Caused by: java.sql.SQLSyntaxErrorException: Table 'ordersmanager.passport' doesn't exist
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685)
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
-	... 21 common frames omitted
-2025-12-09 14:22:52 INFO  [main] org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3820cfe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2025-12-09 14:22:55 INFO  [main] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-12-09 14:22:55 WARN  [main] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-12-09 14:22:55 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-09 14:22:55 INFO  [main] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/ordersManager]
-	Database driver: com.mysql.cj.jdbc.Driver
-	Database version: 8.0.42
-	Autocommit mode: false
-	Isolation level: undefined/unknown
-	Minimum pool size: 1
-	Maximum pool size: 20
-2025-12-09 14:22:55 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-09 14:22:55 INFO  [main] org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@785ed99c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2025-12-09 14:22:56 INFO  [main] org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@755b5f30] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-12-10 09:13:03 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-10 09:13:03 INFO  [main] org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3a0b6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-12-10 09:13:04 INFO  [main] org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6f1fa1d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
