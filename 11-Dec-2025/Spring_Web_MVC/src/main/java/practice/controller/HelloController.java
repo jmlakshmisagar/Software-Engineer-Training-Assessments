@@ -20,6 +20,7 @@ public class HelloController {
     public ModelAndView getName() {
         ModelAndView view = new ModelAndView();
         view.setViewName("name"); 
+        view.addObject("date",LocalDate.now().toString());
         return view;
     }
 
