@@ -20,7 +20,6 @@ public class Order {
 	@Value("${Order.itemList}")
 	private Set<String> itemList;
 	
-	@Value("#{}")
 	private String orderType;
 	private LocalDate deliveryDate;
 	private double discount;
