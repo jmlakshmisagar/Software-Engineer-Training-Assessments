@@ -27,13 +27,21 @@ public class DemoController {
 			@RequestParam("password") String password) {
 
 		if (authService.doAuth(role, uname, password)) {
-			ModelAndView view = new ModelAndView("welcome");
-			view.addObject("user", authService.getDetails(role, uname, password));
-			return view;
+
+			if (role.equals("admin")) {
+				ModelAndView mv = new ModelAndView("adminHome");
+				mv.addObject("users", authService.getAll());
+				return mv;
+			}
+
+			ModelAndView mv = new ModelAndView("welcome");
+			mv.addObject("user", authService.getDetails(role, uname, password));
+			return mv;
+
 		} else {
-			ModelAndView view = new ModelAndView("error");
-			view.addObject("username", uname);
-			return view;
+			ModelAndView mv = new ModelAndView("error");
+			mv.addObject("username", uname);
+			return mv;
 		}
 	}
 
@@ -48,14 +56,12 @@ public class DemoController {
 	@RequestMapping("/add")
 	@ResponseBody
 	public String addUser(User user) {
-	    authService.addUser(user);
-	    return "User added successfully! ";
+		authService.addUser(user);
+		return "User added successfully!";
 	}
-	
+
 	@RequestMapping("/userform")
 	public ModelAndView showUserForm() {
-	    return new ModelAndView("add");
+		return new ModelAndView("add");
 	}
-
-
 }
