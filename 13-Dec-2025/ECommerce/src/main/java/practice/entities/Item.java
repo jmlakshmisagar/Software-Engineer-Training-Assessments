@@ -4,13 +4,17 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.Size;
 
 @Entity
 public class Item {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long itemid;
+	@Size(min = 3, message = "Item must be min of 3 charectors")
 	private String itemName;
+	@Min(value = 1000, message = "Cost must be more than 1000")
 	private double itemCost;
 
 	public Item(String itemName, double itemCost) {
